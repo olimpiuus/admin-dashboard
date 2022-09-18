@@ -10,28 +10,177 @@
 
 <body>
     <header class="header">
-        <div class="header__search">
-            <button class="search__btn"></button>
-            <input type="text" class="search__input" placeholder="search">
+        <div class="header__top">
+            <div class="header__search">
+                <button class="search__btn"></button>
+                <input type="text" class="search__input" placeholder="search">
+            </div>
+            <div class="header__user-info user-info">
+                <ul class="user-info__list">
+                    <li class="user-info__item">
+                        <button class="user-notification"></button>
+                    </li>
+                    <li class="user-info__item">
+                        <a href="/" class="user-link">
+                            <img src="img/user-img.png" alt="user image" class="user-info__img">
+                        </a>
+                    </li>
+                    <li class="user-info__item">
+                        <a href="/" class="user-link">
+                            <span class="user-info__name">Morgan Oakley</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="header__user-info user-info">
-            <ul class="user-info__list">
-                <li class="user-info__item">
-                    <button class="user-notification"></button>
+
+        <div class="header__botom">
+            <div class="header__greating">
+                <img src="img/user-img.png" alt="user image" class="greating__user-pickture">
+                <p class="greating__text">Hi there, <b>Morgan Oakley (@moran)</b></p>
+            </div>
+            <div class="header__action">
+                <ul class="action__lict">
+                    <li class="action__item"><button class="action__btn">New</button></li>
+                    <li class="action__item"><button class="action__btn">Upload</button></li>
+                    <li class="action__item"><button class="action__btn">Share</button></li>
+                </ul>
+            </div>
+        </div>
+
+    </header>
+
+    <nav class="dashboard">
+        <h1 class="dashboard__title">Dashboard</h1>
+        <ul class="dasboard__links-list">
+            <li class="dashboard__link-item"><a href="/" class="dashboard__link">Home</a></li>
+            <li class="dashboard__link-item"><a href="/" class="dashboard__link">Profile</a></li>
+            <li class="dashboard__link-item"><a href="/" class="dashboard__link">Message</a></li>
+            <li class="dashboard__link-item"><a href="/" class="dashboard__link">History</a></li>
+            <li class="dashboard__link-item"><a href="/" class="dashboard__link">Tasks</a></li>
+            <li class="dashboard__link-item"><a href="/" class="dashboard__link">Communities</a></li>
+            <li class="dashboard__link-item"><a href="/" class="dashboard__link">Settings</a></li>
+            <li class="dashboard__link-item"><a href="/" class="dashboard__link">Support</a></li>
+            <li class="dashboard__link-item"><a href="/" class="dashboard__link">Pricacy</a></li>
+        </ul>
+    </nav>
+
+    <main class="main">
+        <section class="projects">
+            <h2 class="projects__title">Your Projects</h2>
+            <ul class="projects__list-item">
+                <li class="projects__item project">
+                    <div class="project info">
+                        <h3 class="project__title">Super Cool Project</h3>
+                        <p class="project__text">Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</p>
+                    </div>
+                    <ul class="project__actions-list">
+                        <li class="project__action-item"><button class="project__action-btn"></button></li>
+                        <li class="project__action-item"><button class="project__action-btn"></button></li>
+                        <li class="project__action-item"><button class="project__action-btn"></button></li>
+                    </ul>
                 </li>
-                <li class="user-info__item">
-                    <a href="/" class="user-link">
-                        <img src="img/user-img.png" alt="user image" class="user-info__img">
-                    </a>
+                <li class="projects__item project">
+                    <div class="project info">
+                        <h3 class="project__title">Less Cool Project</h3>
+                        <p class="project__text">Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque sed dolor tincidunt, consectetur sapien et, facilisis dolor. Duis sem purus, dignissim ut sapien in, varius pellentesque lacus.</p>
+                    </div>
+                    <ul class="project__actions-list">
+                        <li class="project__action-item"><button class="project__action-btn"></button></li>
+                        <li class="project__action-item"><button class="project__action-btn"></button></li>
+                        <li class="project__action-item"><button class="project__action-btn"></button></li>
+                    </ul>
                 </li>
-                <li class="user-info__item">
-                    <a href="/" class="user-link">
-                        <span class="user-info__name">Morgan Oakley</span>
-                    </a>
+                <li class="projects__item project">
+                    <div class="project info">
+                        <h3 class="project__title">Impossible App</h3>
+                        <p class="project__text">In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a placerat velit sagittis id.
+                        </p>
+                    </div>
+                    <ul class="project__actions-list">
+                        <li class="project__action-item"><button class="project__action-btn"></button></li>
+                        <li class="project__action-item"><button class="project__action-btn"></button></li>
+                        <li class="project__action-item"><button class="project__action-btn"></button></li>
+                    </ul>
+                </li>
+                <li class="projects__item project">
+                    <div class="project info">
+                        <h3 class="project__title">Easy Peasy App</h3>
+                        <p class="project__text">Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim urna get accumsan aliquam. Curabitur dignissim nisi in tortor commodo, ac bibendum magna tincidunt.</p>
+                    </div>
+                    <ul class="project__actions-list">
+                        <li class="project__action-item"><button class="project__action-btn"></button></li>
+                        <li class="project__action-item"><button class="project__action-btn"></button></li>
+                        <li class="project__action-item"><button class="project__action-btn"></button></li>
+                    </ul>
+                </li>
+                <li class="projects__item project">
+                    <div class="project info">
+                        <h3 class="project__title">Ad Blocker</h3>
+                        <p class="project__text">Quisque eget rutrum isl. Nam auque justo, cursus vitae metus vel, pharetra hendrerit felis. Aliquam sed malesuada eros.
+                        </p>
+                    </div>
+                    <ul class="project__actions-list">
+                        <li class="project__action-item"><button class="project__action-btn"></button></li>
+                        <li class="project__action-item"><button class="project__action-btn"></button></li>
+                        <li class="project__action-item"><button class="project__action-btn"></button></li>
+                    </ul>
+                </li>
+                <li class="projects__item project">
+                    <div class="project info">
+                        <h3 class="project__title">Money Maker</h3>
+                        <p class="project__text">Present convallis, libero quis congue elementum, nunc ante faucibus sapien, ac scelerisque tortor purus sit amet ex. Pellentesque mollis nec sem vel aliquam</p>
+                    </div>
+                    <ul class="project__actions-list">
+                        <li class="project__action-item"><button class="project__action-btn"></button></li>
+                        <li class="project__action-item"><button class="project__action-btn"></button></li>
+                        <li class="project__action-item"><button class="project__action-btn"></button></li>
+                    </ul>
                 </li>
             </ul>
-        </div>
-    </header>
+        </section>
+
+        <section class="announcements">
+            <h2 class="announcements__title">Announcements</h2>
+            <ul class="announcements__list">
+                <li class="announcements__list-item">
+                    <h3 class="announcement__title">Site Maintenance</h3>
+                    <p class="announcement__text">Vestibulum condimentum tells lacus, in accumsan elit maximus ac. Donec hendrerit sodales congue...</p>
+                </li>
+                <li class="announcements__list-item">
+                    <h3 class="announcement__title">Community Share Day</h3>
+                    <p class="announcement__text">Nam vel lectus tincidunt, rutrum nulla eu, ornare libero. Aliquam dictum accumsan porttitor..</p>
+                </li>
+                <li class="announcements__list-item">
+                    <h3 class="announcement__title">Updated Privacy Policy</h3>
+                    <p class="announcement__text">Phasellus efficitur nisi get elit consectetur, eget condimentum ante auctor. Cras fringilla sagittis sem in mattis...
+                    </p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="trending">
+            <h2 class="trenging__title">Trending</h2>
+            <ul class="trenging__list">
+                <li class="trending__card">
+                    <img src="img/trenging-card1" alt="image of trending card #1" class="card__img"><a href="/" class="card__link">@tegan</a>
+                    <div class="card__name">World Peace Builder</div>
+                </li>
+                <li class="trending__card">
+                    <img src="img/trenging-card2" alt="image of trending card #2" class="card__img"><a href="/" class="card__link">@morgan</a>
+                    <div class="card__name">Super Cool Project</div>
+                </li>
+                <li class="trending__card">
+                    <img src="img/trenging-card3" alt="image of trending card #3" class="card__img"><a href="/ " class="card__link">@kendall</a>
+                    <div class="card__name">Life Changing App</div>
+                </li>
+                <li class="trending__card">
+                    <img src="img/trenging-card4" alt="image of trending card #4" class="card__img"><a href="/" class="card__link">@alex</a>
+                    <div class="card__name">No Traffic Maker</div>
+                </li>
+            </ul>
+        </section>
+    </main>
 </body>
 
 </html>
